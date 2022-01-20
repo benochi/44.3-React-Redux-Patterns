@@ -1,0 +1,31 @@
+.ProductCard{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: .5em;
+  margin: 1em;
+  height: 35vh;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #63ddf0;
+}
+
+img{
+  max-width: 90%;
+  max-height: 50vh;
+  margin: auto;
+}
+
+a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2{
+  text-transform: capitalize;
+}
+
+.cart-buttons{
+  justify-content: flex-end;
+}
